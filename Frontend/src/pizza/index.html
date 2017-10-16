@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--Main LESS file-->
+    <link	rel="stylesheet/less"	type="text/css"	href="main.less"/>
+
+    <!--LESS javascript compiler-->
+    <script	src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+</head>
+
+
+
+<body style="padding-bottom: 2000px">
+
+
+<svg>
+    <polygon points="10,0 110,0 110,100 60,90 10,100"></polygon>
+</svg>
+
+
+
+
+<!--Columns with pizzas-->
+<div  style="position: relative; ">
+
+    <!--Position fixed header-->
+    <div class="top-header">
+
+
+        <span style="font-size: large" >(044) 228 1 488 </span>
+        <span id="all-day">24 години, 7 днівна тиждень</span>
+        <span id="delivery">Безкоштовна доставка</span>
+        <button type="button" style="float: right" class="btn btn-warning">Вхід</button>
+        <hr>
+        <span>Піца</span>
+
+    </div>
+
+
+    <br>
+
+    <!--Some intro and filters-->
+    <div class="intro">
+        <h2 align="center"> All pizzas! <span class="number-of-pizzas">8</span></h2>
+    </div>
+
+
+    <div class="row">
+
+    <div class="col-md-4 col-sm-6">
+        <div class="one-pizza">
+        <img src="images/7-pizza-png-image-thumb.png" >
+        <br>
+        <span style="color: orange; font-size: large"><b>Pizza1</b></span>
+        <br>
+        <span style="font-size: small">Meaty pizza</span>
+        <p>Something about this pizza not interesting stuff you know blah</p>
+        <div class="col-xs-6">
+            <img src="images/icon.svg" style="width: 10px;height: 10px">
+            30
+            <br>
+            <img src="images/weight.svg" style="width: 10px;height: 10px">
+            370
+            <br>
+            <span style="font-size: 30px">99</span>
+            <br>
+            грн.
+            <br>
+            <button type="button"class="btn btn-warning">Buy</button>
+        </div>
+        <div class="col-xs-6">
+            <img src="images/icon.svg" style="width: 10px;height: 10px">
+            40
+            <br>
+            <img src="images/weight.svg" style="width: 10px;height: 10px">
+            660
+            <br>
+            <span style="font-size: 30px">169</span>
+            <br>
+            грн.
+            <br>
+            <button type="button"class="btn btn-warning">Buy</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+        <div class="one-pizza">
+        <img src="images/60_tn.png" >
+        <br>
+        <span style="color: orange; font-size: large"><b>Pizza1</b></span>
+        <br>
+        <span style="font-size: small">Meaty pizza</span>
+        <p>Something about this pizza not interesting stuff you know blah</p>
+        <div class="col-xs-6">
+            <img src="images/icon.svg" style="width: 10px;height: 10px">
+            30
+            <br>
+            <img src="images/weight.svg" style="width: 10px;height: 10px">
+            370
+            <br>
+            <span style="font-size: 30px">99</span>
+            <br>
+            грн.
+            <br>
+            <button type="button"class="btn btn-warning">Buy</button>
+        </div>
+        <div class="col-xs-6">
+            <img src="images/icon.svg" style="width: 10px;height: 10px">
+            40
+            <br>
+            <img src="images/weight.svg" style="width: 10px;height: 10px">
+            660
+            <br>
+            <span style="font-size: 30px">169</span>
+            <br>
+            грн.
+            <br>
+            <button type="button"class="btn btn-warning">Buy</button>
+        </div>
+
+        </div>
+    </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="one-pizza">
+                <img src="images/60_tn.png" >
+                <br>
+                <span style="color: orange; font-size: large"><b>Pizza1</b></span>
+                <br>
+                <span style="font-size: small">Meaty pizza</span>
+                <p>Something about this pizza not interesting stuff you know blah</p>
+                <div class="col-xs-6">
+                    <img src="images/icon.svg" style="width: 10px;height: 10px">
+                    30
+                    <br>
+                    <img src="images/weight.svg" style="width: 10px;height: 10px">
+                    370
+                    <br>
+                    <span style="font-size: 30px">99</span>
+                    <br>
+                    грн.
+                    <br>
+                    <button type="button"class="btn btn-warning">Buy</button>
+                </div>
+                <div class="col-xs-6">
+                    <img src="images/icon.svg" style="width: 10px;height: 10px">
+                    40
+                    <br>
+                    <img src="images/weight.svg" style="width: 10px;height: 10px">
+                    660
+                    <br>
+                    <span style="font-size: 30px">169</span>
+                    <br>
+                    грн.
+                    <br>
+                    <button type="button"class="btn btn-warning">Buy</button>
+                </div>
+
+            </div>
+        </div>
+
+
+<div class="order-box">
+    <span style="font-size: 30px;"><b>Замовлення</b></span>
+    <span style="font-size: 10px; color: #555555; right: 0">Очистити замовлення</span>
+        <div class="product">
+            <span> BBQ small</span>
+            <br>
+            <span> BBQ small</span>  <span> BBQ small</span>
+            <br>
+            <span> BBQ small</span>
+            <button type="button" class="btn btn-danger"></button>
+            <button type="button" class="btn btn-success"></button>
+            <button type="button" class="btn btn-default"></button>
+            <img src="images/72_tn.png" style="right: 400px">
+            <br>
+        </div>
+
+</div>
+    </div>
+
+    <svg id="lower-flag">
+
+        <polygon points="10,0 110,0 110,100 60,90 10,100"> </polygon>
+    </svg>
+
+</div>
+
+
+
+    <!--JQuery javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!--http://localhost:63342/JS-Pizza/Frontend/src/pizza/index.html?_ijt=tj52k171sgt2nhco1ivtohvj2a-->

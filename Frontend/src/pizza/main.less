@@ -1,0 +1,158 @@
+
+
+
+body{
+  background-color: rgb(255,255,240);
+}
+
+
+//Fixed header with KMA flag
+.top-header{
+  background-color: black;
+  opacity: 0.9;
+  height: 80px;
+  color: white;
+  position: fixed;
+  text-align: center;
+  width: 70%;
+  padding: 7px;
+  margin-top: 0;
+  z-index: 3;
+}
+
+
+.one-pizza{
+  background-color: white;
+  box-shadow: #444444;
+  border: solid 1px gray;
+  padding: 7%;
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+
+//Right fixed section buy-list
+.order-box{
+  width: 30%;
+  //margin-left: 5%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: white;
+  padding: 2%;
+}
+
+
+//All spans
+.top-header span{
+  padding-right: 5%;
+  color: #888888;
+}
+
+
+.product{
+  padding: 3%;
+}
+
+//Non-working "8" span
+h2 .intro{
+  span{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 100%;
+    background-color: orange;
+  }
+}
+
+
+//Vertical distance between pizzas
+.row div{
+  padding-bottom:  150px;
+}
+
+.row img{
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+.row{
+  margin-right: 30%;
+}
+
+.order-box img{
+  height: 80px;
+  width: 80px;
+}
+
+
+//Orange flag on top
+svg{
+  z-index: 4;
+  height: 100px;
+  width: 150px;
+  fill: rgb(238,133,64);
+  opacity: 1;
+  //position: absolute;
+  margin-left:1%;
+  position: fixed;
+
+}
+
+
+//Orange flag on the bottom
+#lower-flag{
+  z-index: 4;
+  height: 100px;
+  width: 120px;
+  fill: rgb(238,133,64);
+  opacity: 1;
+  //position: absolute;
+  padding-right:1%;
+  position: fixed;
+  transform: rotate(180deg);
+  bottom: 0;
+}
+
+
+//All horizontal lines (<hr>)
+hr{
+  height:2px;
+  border:none;
+  color: #222222;
+  background-color:#222;
+  margin: 10px;
+}
+
+//Sign in button
+.top-header button{
+  height: 30px;
+}
+
+
+//All pizzas and filters
+.intro{
+  margin-top:120px;
+  text-align: left;
+  left: 30%;
+}
+
+
+
+@media (max-width:991px) {
+  .top-header #delivery{
+    display: none;
+  }
+}
+@media (max-width: 766px) {
+  .top-header #all-day{
+    display: none;
+  }
+}
